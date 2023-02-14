@@ -8,7 +8,6 @@ import Link from "next/link";
 import Date from "../components/date";
 
 export default function Home({ allPostsData }) {
-  console.log(allPostsData);
   return (
     <Layout home>
       <Head>
